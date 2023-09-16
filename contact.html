@@ -3,6 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Contact Patricia. Patricia is a front-end engineer based in Portugal."
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" 
   rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" 
   crossorigin="anonymous">
@@ -14,10 +15,35 @@
   integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" 
   crossorigin="anonymous"></script>
   <script src="https://kit.fontawesome.com/99f260395c.js" crossorigin="anonymous"></script>
-  <title>Portfolio Project</title>
+  <title>Contact Patricia - Patricia Pereira</title>
   
 </head>
 <body>
+  <div class="container">
+    <nav class="d-flex justify-content-between">
+      <a href="/" title="Homepage">
+        <img src="images/logo.png" class="logo d-none d-md-block" alt="Patricia Logo" />
+        <!--If I had a smaller logo to add in conjunction so when on a smaller device it
+        would stll show, I would add the following
+        <img src="images/logo-small.jpg" class="logo d-block d-md-none" alt="" 
+        />then add a link to it-->
+      </a>
+      <ul>
+        <li>
+          <a href="/" title="Homepage"> Home</a>
+        </li>
+        <li>
+          <a href="/about.html" title="About Patricia"> About</a>
+        </li>
+        <li>  
+          <a href="/work.html" title="Patricia's work"> Work</a>
+        </li>
+        <li class="active">
+          <a href="/contact.html" title="Contact Patricia"> Contact</a>
+        </li>
+      </ul>
+    </nav>
+  </div>
   <div class="content-container container">
     <div class="content">
       <h1 class="mb-5">Let's get in touch!</h1>
@@ -34,6 +60,37 @@
         <a href="https://www.instagram.com/patricia.codes" target="_blank">@patricia.codes</a>
       </p>
     </div>
+    <footer class="container">
+      <div class="contact-box d-flex justify-content-between mb-5 d-none d-md-flex">
+        <div>
+          <h4>Work Inquiry</h4>
+          <p class="text-muted">Let's work together</p>
+        </div>
+        <div>
+          <a href="/contact.html" class="btn btn-branding" title="Contact Patricia">Contact me</a>
+        </div>
+      </div>
+      <div class="d-flex justify-content-center mb-3">
+        <a href="mailto:patricia@gmail.com" class="email-link" title="Email Patricia"> patricia@gmail.com </a>
+      </div>
+      <div class="social-links d-flex justify-content-center">
+        <a href="https://www.instagram.com/patricia" target="_blank" title="Instagram Profile">
+          <i class="fa-brands fa-instagram"></i>
+        </a>
+        <a href="https://www.github.com/patricia" target="_blank" title="Github Profile">
+          <i class="fa-brands fa-github"></i>
+        </a>
+        <a href="https://www.facebook.com/patricia" target="_blank" title="Facebook">
+          <i class="fa-brands fa-facebook-f"></i>
+        </a>         
+      </div>
+      <p class="text-center mt-5">
+        🫶🏽This project was coded SheCodes, and it is
+        <a href="http://github.com/mariacamper/portfolio-project.com" target="_blank" >
+         open-sourced
+        </a>
+      </p>
+    </footer> 
   </div>
 </body>
 </html> 
